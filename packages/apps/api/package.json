@@ -1,0 +1,11 @@
+{
+  "name": "web-api",
+  "version": "0.0.0",
+  "description": "Node API proxy",
+  "main": "index.js",
+  "author": "Craig Beck <cbeck@premise.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.8.3"
+  }
+}

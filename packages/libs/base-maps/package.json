@@ -1,0 +1,21 @@
+{
+  "name": "@premisedata/base-maps",
+  "version": "0.0.0",
+  "description": "MapGL React components",
+  "main": "index.js",
+  "author": "Craig Beck <cbeck@premise.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "dependencies": {
+    "deck.gl": "^8.1.1",
+    "mapbox-gl": "^1.9.0",
+    "typescript": "^3.8.3"
+  }
+}

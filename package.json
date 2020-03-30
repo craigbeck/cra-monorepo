@@ -1,0 +1,17 @@
+{
+  "name": "client-portal",
+  "version": "0.0.0",
+  "description": "Monorepo for client-portal app and related packages",
+  "main": "index.js",
+  "author": "Craig Beck <cbeck@premise.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "yarn workspace portal run start"
+  },
+  "workspaces": [
+    "packages/libs/*",
+    "packages/apps/*",
+    "packages/*"
+  ]
+}

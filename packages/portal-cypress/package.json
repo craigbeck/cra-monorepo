@@ -1,0 +1,11 @@
+{
+  "name": "portal-cypress",
+  "version": "0.0.0",
+  "description": "Cypress test harness and tests for portal-app",
+  "main": "index.js",
+  "author": "Craig Beck <cbeck@premise.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.8.3"
+  }
+}
