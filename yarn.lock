@@ -2648,9 +2648,9 @@ base@^0.11.1:
     pascalcase "^0.1.1"
 
 baseui@^9.65.3:
-  version "9.65.4"
-  resolved "https://registry.yarnpkg.com/baseui/-/baseui-9.65.4.tgz#d7029c63401364d99755ad87e4ad190203e9fa42"
-  integrity sha512-YYS0pnZDfZLFD6tHbgxm8Ht1obE4shX8QmXNpmksKRBRJjKN8Xyq8XGrda5bFSOI4CgVoa5Id1KlXbqeVMYMfg==
+  version "9.66.0"
+  resolved "https://registry.yarnpkg.com/baseui/-/baseui-9.66.0.tgz#538a0fb69de03d8e3143b20a82a2d3f222413375"
+  integrity sha512-qv6Ty8WTCH5f6iZVJFI5BkObF1R5Ps8cX+HtwZs51gR7H8eMvwrNXWseXn2/zUrOVpK4Jp+1TYl+lq0KrVZOAw==
   dependencies:
     card-validator "^6.2.0"
     date-fns "^2.6.0"
