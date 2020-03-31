@@ -1756,14 +1756,14 @@
   integrity sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==
 
 "@types/node@*":
-  version "13.9.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.9.5.tgz#59738bf30b31aea1faa2df7f4a5f55613750cf00"
-  integrity sha512-hkzMMD3xu6BrJpGVLeQ3htQQNAcOrJjX7WFmtK8zWQpz2UJf13LCFF2ALA7c9OVdvc2vQJeDdjfR35M0sBCxvw==
+  version "13.9.8"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.9.8.tgz#09976420fc80a7a00bf40680c63815ed8c7616f4"
+  integrity sha512-1WgO8hsyHynlx7nhP1kr0OFzsgKz5XDQL+Lfc3b1Q3qIln/n8cKD4m09NJ0+P1Rq7Zgnc7N0+SsMnoD1rEb0kA==
 
 "@types/node@^12.0.0":
-  version "12.12.32"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.32.tgz#0ccc836d273e8a3cddf568daf22729cfa57c1925"
-  integrity sha512-44/reuCrwiQEsXud3I5X3sqI5jIXAmHB5xoiyKUw965olNHF3IWKjBLKK3F9LOSUZmK+oDt8jmyO637iX+hMgA==
+  version "12.12.34"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.34.tgz#0a5d6ae5d22612f0cf5f10320e1fc5d2a745dcb8"
+  integrity sha512-BneGN0J9ke24lBRn44hVHNeDlrXRYF+VRp0HbSUNnEZahXGAysHZIqnf/hER6aabdBgzM4YOV4jrR8gj4Zfi0g==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -1788,9 +1788,9 @@
     "@types/react" "*"
 
 "@types/react@*", "@types/react@^16.9.0":
-  version "16.9.27"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.27.tgz#7fc5db99e3ec3f21735b44d3560cff684856814a"
-  integrity sha512-j+RvQb9w7a2kZFBOgTh+s/elCwtqWUMN6RJNdmz0ntmwpeoMHKnyhUcmYBu7Yw94Rtj9938D+TJSn6WGcq2+OA==
+  version "16.9.29"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.29.tgz#41c0353b5ea916cdb7a7e89b80b09b268c87a2f8"
+  integrity sha512-aE5sV9XVqKvIR8Lqa73hXvlqBzz5hBG0jtV9jZ1uuEWRmW8KN/mdQQmsYlPx6z/b2xa8zR3jtk7WoT+2/m4suA==
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
@@ -2648,9 +2648,9 @@ base@^0.11.1:
     pascalcase "^0.1.1"
 
 baseui@^9.65.3:
-  version "9.66.0"
-  resolved "https://registry.yarnpkg.com/baseui/-/baseui-9.66.0.tgz#538a0fb69de03d8e3143b20a82a2d3f222413375"
-  integrity sha512-qv6Ty8WTCH5f6iZVJFI5BkObF1R5Ps8cX+HtwZs51gR7H8eMvwrNXWseXn2/zUrOVpK4Jp+1TYl+lq0KrVZOAw==
+  version "9.67.0"
+  resolved "https://registry.yarnpkg.com/baseui/-/baseui-9.67.0.tgz#ad58be32407e79603ea27624d35e875fea8c4d33"
+  integrity sha512-OrMZiLhIJOk/9FFgwXSatoXe4df3syFfBadvx1nCJ8o9HwXUdo3ssXYkQ+p6jUTsPE6MQVXvUGokoHyF5gHcuQ==
   dependencies:
     card-validator "^6.2.0"
     date-fns "^2.6.0"
@@ -10865,9 +10865,9 @@ terser-webpack-plugin@^1.4.3:
     worker-farm "^1.7.0"
 
 terser@^4.1.2, terser@^4.4.3, terser@^4.6.3:
-  version "4.6.8"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-4.6.8.tgz#62ccb14a52f102418ad6061dfef45076f13e5fa2"
-  integrity sha512-drV7ga6ZlIpBtitvb87Uk7P7gAJkCt3j/TqZr9wwF4Dlt0MBn52ANIAyuvP1F605WdPY4w6vT63u6KTWqaXFRQ==
+  version "4.6.9"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-4.6.9.tgz#deec3d8c4536461f46392e4d457bcd1ba2ab1212"
+  integrity sha512-9UuZOApK4oiTpX4AjnWhTCY3fCqntS3ggPQOku9M3Rvr70VETYsuHjSGuRy0D7X/Z994hfnzMy6TQ/H0WQSmXQ==
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"
