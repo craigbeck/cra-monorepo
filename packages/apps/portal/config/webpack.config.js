@@ -50,6 +50,15 @@ const cssModuleRegex = /\.module\.css$/;
 const sassRegex = /\.(scss|sass)$/;
 const sassModuleRegex = /\.module\.(scss|sass)$/;
 
+console.log();
+console.log('=====')
+console.log('paths')
+console.log('=====')
+console.log('appSrc', paths.appSrc);
+console.log('=====')
+console.log();
+
+
 // This is the production and development configuration.
 // It is focused on developer experience, fast rebuilds, and a minimal bundle.
 module.exports = function(webpackEnv) {
@@ -372,6 +381,9 @@ module.exports = function(webpackEnv) {
                 
                 plugins: [
                   [
+                    require.resolve('@babel/plugin-proposal-export-default-from'),
+                  ],
+                  [
                     require.resolve('babel-plugin-named-asset-import'),
                     {
                       loaderMap: {
@@ -381,6 +393,12 @@ module.exports = function(webpackEnv) {
                         },
                       },
                     },
+                  ],
+                ],
+                presets: [
+                  [
+                    require.resolve('babel-preset-react-app'),
+                    { helpers: true, flow: false, typescript: true },
                   ],
                 ],
                 // This is a feature of `babel-loader` for webpack (not Babel itself).
