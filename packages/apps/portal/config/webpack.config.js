@@ -381,9 +381,6 @@ module.exports = function(webpackEnv) {
                 
                 plugins: [
                   [
-                    require.resolve('@babel/plugin-proposal-export-default-from'),
-                  ],
-                  [
                     require.resolve('babel-plugin-named-asset-import'),
                     {
                       loaderMap: {
